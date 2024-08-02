@@ -11,7 +11,7 @@ const findArduinoPort = async () => {
 	  }
 	  return null
   } catch (error) {
-	  console.error('Error al listar los puertos seriales:', error?.message)
+	  console.error('Error al listar los puertos seriales:', error)
 	  return null
   }
 }
